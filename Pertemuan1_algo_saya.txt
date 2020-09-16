@@ -1,0 +1,27 @@
+Algoritma untuk menentukan klasifikasi huruf pada nilai mata kuliah.
+
+Algoritma untuk proses tersebut bagaimana?
+Algoritma :
+Step 1 Mendeklarasikan mata kuliah, huruf yang digunakan untuk klarifikasi nilai mtakul, dan angka
+Step 2 Bentuk variabel yaitu matkul, huruf, dan nilai
+Step 3 
+	Jika nilai ≥90 maka klasifikasi huruf adalah A
+	Jika nilai < 90 dan nilai ≥80 klasifika huruf adalah B
+	Jika nilai < 80 dan nilai ≥75 klasifika huruf adalah C
+	Jika nilai < 75 dan ≥55 klasifika huruf adalah D
+	Jika nilai < 55 klasifika huruf adalah E
+Step 4 Menampilkan hasil data
+
+Pseudocode :
+Deklarasi variabel 	    matkul, huruf, nilai
+
+Matkul 	          ( 20 karekter )
+Huruf              ( 4 karakter )
+ if(nilai >= 90) 	   	  A
+ else if((80<=angka) && (angka<90)) 	   B
+ else if((75<=angka) && (angka<80)) 	    C
+ else if((55<=angka) && (angka<75)) 	    D
+ else if(angka<55)		   	    E
+write ( Klasifikasi huruf )
+ getchar()
+
